@@ -16,7 +16,7 @@ body {
 .aboutMe{
     background-color: darkolivegreen;
     padding: 5px;
-    margin: 2px;
+    margin: 0.5% 3%;
     height: 475px;
 }
 
@@ -48,5 +48,6 @@ img {
     padding: 1px; 
     color: ivory;
     text-align: center;
-    margin: 2px;
+    margin: 0.5%
+
 }
