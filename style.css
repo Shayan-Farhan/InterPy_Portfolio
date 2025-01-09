@@ -15,6 +15,9 @@ body {
 
 .aboutMe{
     background-color: darkolivegreen;
+    padding: 5px;
+    margin: 2px;
+    height: 475px;
 }
 
 .aboutMeHeader{
@@ -25,11 +28,10 @@ body {
     text-align: center;
 }
 .aboutMeText {
-    background-color: darkolivegreen;
     color: ivory;
-    padding: 1px;
+    padding: 50px 1px;
     width: 70%;
-    height: 400px;
+    text-align: center;
 }
 
 img {
@@ -38,10 +40,13 @@ img {
     height: 400px;
     float: right;
     margin-right: 70px;
+    border-radius: 5%;
 }
 
 .header {
     background-color: darkslateblue;
     padding: 1px; 
-    color: ivory 
+    color: ivory;
+    text-align: center;
+    margin: 2px;
 }
