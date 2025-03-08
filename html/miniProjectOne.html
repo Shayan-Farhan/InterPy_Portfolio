@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+    <link href="css/miniProjectOne.css" rel="stylesheet">
+    <head>
+        <h1>
+            Housing Prices by House Age
+        </h1>
+        <p class="headerP">
+            A program to help you choose an affordable home
+        </p>
+        <a class="homeButton" href="html/index.html">Home</a>
+    </head>
+    <body>
+        <div class="overview">
+            <h2>
+                Overview
+            </h2>
+            <p>
+                The project inputs a .csv file of houses for sale, and returns a line chart of the average house price 
+                per decade the house was built (from 1900's to 2010's). Given how housing prices are rising, the motivation
+                behind this project was to help potential homeowners in their search to find a home they can afford.
+            </p>
+        </div>
+        <div class="features">
+            <h2>
+                Features
+            </h2>
+            <ul>
+                <li>
+                    Can input any .csv-formatted data of houses built between 1900 and 2019
+                </li>
+                <li>
+                    Automatically calculates average housing price by decade
+                </li>
+                <li>
+                    Can display either a bar chart or a line graph visualizing the data.
+                </li>
+            </ul>
+        </div>
+        <div class="technicalDetails">
+            <h2>
+                Technical Details
+            </h2>
+            <p>
+                The program creates a Pandas Dataframe of the housing data, then creates smaller dataframes of all houses
+                built in each decade. The program then uses pandas to calculate the mean housing price for all decades,
+                then uses Matplotlib's Pyplot package to create line or bar charts for those mean housing prices.
+            </p>
+        </div>
+        <div class="challenges">
+            <h2>
+                Challenges
+            </h2>
+            <p>
+                The main challenge for this project was creating the smaller dataframes for each decade.
+                I solved this challenge using Pandas' built-in dataframe organizing and filtering methods, then 
+                creating lists to manage results.
+            </p>
+        </div>
+        <div class="example">
+            <h2>
+                Example
+            </h2>
+            <p>
+                Below is an example output from the program.
+            </p>
+            <img src="resources/mp1Example.png" alt="Example line chart">
+        </div>
+        <div class="future improvements">
+            <h2>
+                Future Improvements
+            </h2>
+            <p>
+                In the future, I could add a UI to more easily allow users to enter data and choose their preferred output.
+                I may also add the ability to analyze housing price by other parameters (such as square footage
+                or number of rooms)
+            </p>
+        </div>
+        <div class="githubLink">
+            <a href="https://github.com/Shayan-Farhan/InterPy_Mini-Project-1">
+                Here is a link to the project on Github.
+            </a>
+        </div>
+    </body>
+</html>
