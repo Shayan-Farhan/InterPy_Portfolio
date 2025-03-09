@@ -20,14 +20,22 @@ body {
     height: 475px;
 }
 
-.aboutMeHeader{
+.projects {
+    background-color: darkolivegreen;
+    margin: 0.5% 3%;
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+h2{
     background-color: darkolivegreen;
     color: ivory;
     margin-bottom: 0px;
     padding: 2px;
     text-align: center;
 }
-.aboutMeText {
+.aboutMeText{
     color: ivory;
     padding: 50px 1px;
     width: 70%;
@@ -51,3 +59,4 @@ img {
     margin: 0.5%
 
 }
+
