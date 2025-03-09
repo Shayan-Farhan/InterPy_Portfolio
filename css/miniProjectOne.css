@@ -1,0 +1,44 @@
+p {
+    font-size: medium;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:ivory;
+}
+
+.overview, .features, .technicalDetails, .challenges, .example, .futureImprovements, .githubLink{
+    padding: 5px;
+    margin: 0.5% 3%;
+}
+
+.example {
+    display: inline-block;
+    width: auto;
+}
+
+.head {
+    background-color: darkslateblue;
+    padding: 1px; 
+    color: ivory;
+    text-align: center;
+    margin: 0.5%
+}
+
+.homeButton {
+    background-color: ivory;
+    overflow: hidden;
+}
+
+.homeButton a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+.example img {
+    width: 30%;
+    height: auto;
+}

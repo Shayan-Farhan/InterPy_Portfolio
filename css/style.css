@@ -21,7 +21,7 @@ body {
 }
 
 .projects {
-    background-color: darkolivegreen;
+    background-color: darkgoldenrod;
     margin: 0.5% 3%;
     height: 150px;
     padding: 5px;
@@ -29,7 +29,6 @@ body {
 }
 
 h2{
-    background-color: darkolivegreen;
     color: ivory;
     margin-bottom: 0px;
     padding: 2px;
